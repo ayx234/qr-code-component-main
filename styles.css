@@ -40,11 +40,8 @@ body {
 
 .qr-card {
 	background-color: var(--white);
-	width: 24rem;
-	padding: 1.2rem 1.2rem 2rem;
-	/* below padding is from figma */
-	/* padding: 16px 16px 24px; */
-	font-size: 1.35rem;
+	width: 32rem;
+	padding: 1.6rem 1.6rem 4.4rem;
 	border-radius: 1.5rem;
 }
 
@@ -52,32 +49,20 @@ img {
 	display: block;
 	max-width: 100%;
 	border-radius: 1rem;
-	margin-bottom: 1.6rem;
-	/* below declarations are from from figma */
-	/* border-radius: 10px; */
-	/* margin-bottom: 24px; */
+	margin-bottom: 2rem;
 }
 
 .text-description {
-	/* figma has no padding for this element */
-	padding: 0 0.35em 1.6rem;
+	padding: 0 0.5rem;
 }
 
 h1 {
+	font-size: 2.2rem;
 	margin-bottom: 1.2rem;
 	color: var(--slate-900);
-	/* below declarations are from figma */
-	/* font-size: 22px;
-	line-height: 120%;
-	letter-spacing: 0; 
-    margin-bottom: 16px */
 }
 
 .text-description p {
 	color: var(--slate-500);
-	/* below declarations are from figma */
-	/* 
-    font-size: 15px;
-    line-height: 140%;
-    letter-spacing: .2px */
+	word-spacing: 1.8px;
 }

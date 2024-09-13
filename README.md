@@ -26,10 +26,8 @@ This is a simple project to replicate a card containing a QR code and text relat
 
 ### Links
 
-###################################### update this before committing
-
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: (https://github.com/ayx234/qr-code-component-main.git)
+-   Live Site URL: (https://ayx234.github.io/qr-code-component-main/)
 
 ## My process
 
@@ -45,6 +43,7 @@ This is a simple project to replicate a card containing a QR code and text relat
 
 ### Continued development
 
+-   Improve skills related to measurements and spacing
 -   Learn more Git and Github when needed
 
 ### Useful resources
@@ -54,7 +53,4 @@ This is a simple project to replicate a card containing a QR code and text relat
 
 ## Author
 
-###################################### update this before committing
-
--   Website - [ayx](https://www.your-site.com)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+-   Frontend Mentor - [@ayx234](https://www.frontendmentor.io/profile/ayx234)
