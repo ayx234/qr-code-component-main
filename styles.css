@@ -1,15 +1,95 @@
 /** @format */
 
-/* CSS reset */
+/* START - CSS reset */
 
-* {
-	margin: 0;
-	padding: 0;
+/* Andy Bell's reset + Adjustments */
+
+/* 
+My adjustments:
+- padding set to 0 using the * selector
+- {display: block; max-width: 100%} includes selectors: video, canvas, svg and original img, picture
+*/
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 }
 
-/* General styles */
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
 
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+	list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+	scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+	min-height: 100vh;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+video,
+canvas,
+svg {
+	max-width: 100%;
+	display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	html:focus-within {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+/* END - CSS reset */
+
+/* Start - General styles */
 :root {
 	--white: hsl(0, 0%, 100%);
 	--slate-300: hsl(212, 45%, 89%);
@@ -18,7 +98,6 @@
 }
 
 html {
-	font-size: 62.5%;
 	/* Google fonts' declarations */
 	font-family: "Outfit", sans-serif;
 	font-optical-sizing: auto;
@@ -26,43 +105,46 @@ html {
 	font-style: normal;
 	text-align: center;
 }
+/* END - General styles */
 
-/* Page styles */
-
+/* START - Page styles */
 body {
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: var(--slate-300);
-	font-size: 1.5rem;
+	font-size: 0.9375rem;
 }
 
 .qr-card {
 	background-color: var(--white);
-	width: 32rem;
-	padding: 1.6rem 1.6rem 4.4rem;
-	border-radius: 1.5rem;
+	max-width: 20rem;
+	padding: 1rem 1rem 2.75rem;
+	border-radius: 0.9375rem;
 }
 
 img {
 	display: block;
 	max-width: 100%;
-	border-radius: 1rem;
-	margin-bottom: 2rem;
+	border-radius: 0.625rem;
+	margin-bottom: 1.25rem;
 }
 
 .text-description {
-	padding: 0 0.5rem;
+	padding: 0 0.3125rem;
 }
 
-h1 {
-	font-size: 2.2rem;
-	margin-bottom: 1.2rem;
+h2 {
+	font-size: 1.375rem;
+	margin-bottom: 0.75rem;
 	color: var(--slate-900);
+	line-height: 1.2;
 }
 
 .text-description p {
 	color: var(--slate-500);
-	word-spacing: 1.8px;
+	word-spacing: 0.125rem;
+	line-height: 1.3;
 }
+/* END - Page styles */

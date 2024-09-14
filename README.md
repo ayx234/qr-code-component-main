@@ -40,6 +40,8 @@ This is a simple project to replicate a card containing a QR code and text relat
 ### What I learned
 
 -   Basic Git and Github commands and workflow.
+-   Use CSS full modern reset
+-   Don't use rem-font-hack ({html {font-size: 62.5%;}}). It can cause accessibility issues for users and development issues. Details in the [Article on rem-font-hack] in [](#useful-resources) below
 
 ### Continued development
 
@@ -50,6 +52,8 @@ This is a simple project to replicate a card containing a QR code and text relat
 
 -   [Pro Git book](https://git-scm.com/book/en/v2) - This helped me on using Git on Git Bash
 -   [Git, GitHub, & GitHub Desktop for beginners](https://www.youtube.com/watch?v=8Dd7KRpKeaE) - This gave me an overview on using Github desktop for Git repos.
+-   [Article on rem-font-hack](https://fedmentor.dev/posts/rem-html-font-size-hack/) - Discusses why using ({html {font-size: 62.5%;}}) causes issues
+-   [@grace-snow feedback on my solution](https://www.frontendmentor.io/solutions/qr-code-using-flexbox-Ejur5ShB1u) - Several insights
 
 ## Author
 
